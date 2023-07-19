@@ -78,7 +78,7 @@ public class CodeGenerator {
             .setMapper("mapper")
             .setService("service")
             .setServiceImpl("service.impl")
-            .setController("controller");
+            .setController("controller");          //ffffffffffffff
         mpg.setPackageInfo(pc);
 
         // 自定义配置
