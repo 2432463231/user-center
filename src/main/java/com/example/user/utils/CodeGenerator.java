@@ -73,7 +73,7 @@ public class CodeGenerator {
         PackageConfig pc = new PackageConfig();
         //pc.setModuleName(scanner("模块名"));
         // 二、模块配置
-        pc.setParent("com.itheima.reggie")
+        pc.setParent("com.example.user")
             .setEntity("entity")
             .setMapper("mapper")
             .setService("service")
