@@ -62,7 +62,7 @@ public class CodeGenerator {
         // 数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
         // 一、修改数据源
-        dsc.setUrl("jdbc:mysql://localhost:3306/user_center");        //hhhhhhhhhhhfjjghj
+        dsc.setUrl("jdbc:mysql://localhost:3306/user_center");
         // dsc.setSchemaName("public");
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
         dsc.setUsername("root");
@@ -78,7 +78,7 @@ public class CodeGenerator {
             .setMapper("mapper")
             .setService("service")
             .setServiceImpl("service.impl")
-            .setController("controller");          //ffffffffffffff
+            .setController("controller");
         mpg.setPackageInfo(pc);
 
         // 自定义配置
